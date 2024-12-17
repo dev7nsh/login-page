@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.509);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.center h2{
+    font-size:1.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+/* From Uiverse.io by Alien14k */ 
+.form__group {
+    
+    margin-bottom: 10px;
+  }
+  
+  .form__field {
+    border: 1px solid silver !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #313a46;
+    height: 40px;
+   background-color: rgba(235, 235, 235, 1);
+    width: 100%;
+  }
+  
+
+  .lab{
+    width: 100%;
+  }
+
+  .google{
+    border: solid 1px black ;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    font-weight: 500;
+  }
+
+  .or{
+    font-size: small;
+    margin-bottom: 1rem;
+  }
+
+  /* From Uiverse.io by McHaXYT */ 
+.button {
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  background-color: #151515;
+  color: #eee;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button-span {
+  color: #aaa;
+}
+
+.img img{
+
+  height: 50px;
+}
